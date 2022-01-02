@@ -1,6 +1,6 @@
 local NotificationLibrary = {}
 
-local AbyssGUI = Instance.new("ScreenGui"); AbyssGUI.Name = "Abyss"; AbyssGUI.Parent = game.CoreGui
+local AbyssGUI = Instance.new("ScreenGui"); AbyssGUI.Name = "Abyss"; AbyssGUI.Parent = game.CoreGui; AbyssGUI.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 function NotificationLibrary:Notify(TitleText, Desc, Delay)
     local Notification = Instance.new("Frame")
