@@ -1,5 +1,7 @@
 local NotificationLibrary = {}
 
+local AbyssGUI = Instance.new("ScreenGui"); AbyssGUI.Name = "Abyss"; AbyssGUI.Parent = game.CoreGui
+
 function NotificationLibrary:Notify(TitleText, Desc, Delay)
     local Notification = Instance.new("Frame")
 	local Line = Instance.new("Frame")
